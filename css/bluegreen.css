@@ -1,0 +1,71 @@
+
+/*** General Style*/
+html {
+  height: 100%;
+}
+
+body{
+	font-family: sans-serif, 'Helvetica';
+	letter-spacing: -1px;
+	background: #CEF3EF	; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#AED1E2, #AED1E2,#A3D2D6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#AED1E2, #AED1E2,#A3D2D6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#AED1E2, #AED1E2,#A3D2D6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#AED1E2, #AED1E2,#A3D2D6); /* Standard syntax */
+	text-align: center; /* !!! */
+	min-height: 100%;
+	min-width:700px;
+	margin:0px;
+}
+
+h1{
+	color:#1F1F1F;
+}
+
+p{
+
+}
+
+/*** LINKS */
+a:link, a:visited {
+    color: #1D64FF;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color: lightyellow;
+}
+
+/*** All CLASS CSS styles */
+
+.logo{
+	/*border-radius: 45%;*/
+	/*background-color: lightblue; cute but idk if distracting*/ 
+	width:20%;
+	float:left;
+	height:100%;
+	margin-top:30px;
+
+}
+
+.content{
+	user-select: none;
+	-moz-user-select: none;
+	background-color: transparent;
+	width:70%;
+	text-align:left;
+	margin-left: 270px;
+	display:block;
+}
+
+
+/*** All ID CSS styles */
+#container{
+	margin-top: 100px;
+	display:inline-block;
+	width:70%;
+	min-width:600px;
+	min-height:100%;
+	border-style:none;
+
+}
