@@ -39,7 +39,7 @@ a:hover, a:active {
 /*** All CLASS CSS styles */
 
 .logo{
-	
+	background:none;
 	width:20%;
 	float:left;
 	height:100%;
@@ -48,6 +48,7 @@ a:hover, a:active {
 }
 
 .content{	
+	background:none;
 	user-select: none;
 	-moz-user-select: none;
 	background-color: transparent;
@@ -60,7 +61,6 @@ a:hover, a:active {
 
 /*** All ID CSS styles */
 #container{
-	/*background-color: lightblue; cute but idk if distracting*/ 
 	margin-top: 100px;
 	display:inline-block;
 	width:70%;
