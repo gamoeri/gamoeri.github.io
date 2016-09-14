@@ -11,7 +11,7 @@ body{
     background: -webkit-linear-gradient(#AED1E2, #AED1E2,#A3D2D6); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#AED1E2, #AED1E2,#A3D2D6); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#AED1E2, #AED1E2,#A3D2D6); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#AED1E2, #AED1E2,#A3D2D6); /* Standard syntax */
+    background: linear-gradient(to left,#AED1E2, #AED1E2,#A3D2D6); /* Standard syntax */
 	text-align: center; /* !!! */
 	min-height: 100%;
 	min-width:700px;
@@ -39,8 +39,7 @@ a:hover, a:active {
 /*** All CLASS CSS styles */
 
 .logo{
-	/*border-radius: 45%;*/
-	/*background-color: lightblue; cute but idk if distracting*/ 
+	
 	width:20%;
 	float:left;
 	height:100%;
@@ -48,7 +47,7 @@ a:hover, a:active {
 
 }
 
-.content{
+.content{	
 	user-select: none;
 	-moz-user-select: none;
 	background-color: transparent;
@@ -61,6 +60,7 @@ a:hover, a:active {
 
 /*** All ID CSS styles */
 #container{
+	/*background-color: lightblue; cute but idk if distracting*/ 
 	margin-top: 100px;
 	display:inline-block;
 	width:70%;
