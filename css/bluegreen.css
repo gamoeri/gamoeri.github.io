@@ -2,6 +2,7 @@
 /*** General Style*/
 html {
   height: 100%;
+  background-repeat:none;
 }
 
 body{
@@ -12,6 +13,7 @@ body{
     background: -o-linear-gradient(#AED1E2, #AED1E2,#A3D2D6); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#AED1E2, #AED1E2,#A3D2D6); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to left,#AED1E2, #AED1E2,#A3D2D6); /* Standard syntax */
+    background-repeat: none;
 	text-align: center; /* !!! */
 	min-height: 100%;
 	min-width:700px;
@@ -19,6 +21,7 @@ body{
 }
 
 h1{
+	background:none;
 	color:#1F1F1F;
 }
 
@@ -28,6 +31,7 @@ p{
 
 /*** LINKS */
 a:link, a:visited {
+	background:none;
     color: #1D64FF;
     text-decoration: none;
 }
@@ -39,7 +43,6 @@ a:hover, a:active {
 /*** All CLASS CSS styles */
 
 .logo{
-	background:none;
 	width:20%;
 	float:left;
 	height:100%;
@@ -48,7 +51,6 @@ a:hover, a:active {
 }
 
 .content{	
-	background:none;
 	user-select: none;
 	-moz-user-select: none;
 	background-color: transparent;
