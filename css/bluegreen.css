@@ -21,8 +21,8 @@ body{
 }
 
 h1{
-	background:none;
-	color:#1F1F1F;
+	background-repeat:none;
+	color:#333333;
 }
 
 p{
@@ -31,7 +31,7 @@ p{
 
 /*** LINKS */
 a:link, a:visited {
-	background:none;
+	background-repeat:none;
     color: #1D64FF;
     text-decoration: none;
 }
